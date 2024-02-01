@@ -1,0 +1,60 @@
+.App {
+  position: relative;
+}
+
+* {
+  background-image: url(havadurum.jpg);
+  background-size: 1600px 800px;
+  padding: 0;
+ 
+  position: relative;
+}
+
+.search {
+  color: #ffffff;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-bottom: 5px solid rgb(255, 255, 255); */
+}
+
+input,
+button {
+  background-color: #ffffff;
+  padding: 0.5rem 1rem;
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+.cityscreen {
+  color: #ffffff;
+  height: 20%;
+  width:  20%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 4vh;
+  position: absolute;
+  bottom: 0;
+  margin-right: 50%;
+  font-size: 4vh;
+  text-transform: uppercase;
+}
+
+.error-popup {
+  background-color: black;
+  color: #000;
+  position: absolute;
+  top: 50%;
+  min-width: 10rem;
+  max-width: 20rem;
+  font-size: 4vh;
+  text-align: center;
+  z-index: 99;
+  margin-top: 15%;
+  margin-left: 40%;
+  font-weight: bold;
+  text-transform: uppercase;
+}

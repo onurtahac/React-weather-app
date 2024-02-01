@@ -1,0 +1,48 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.result {
+  color: white;
+  display: flex;
+  min-height: 10vh;
+  width: 80%;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 7px solid #ffffff;
+  border-bottom: 7px solid #ffffff;
+  border-right: 7px solid #ffffff;
+  border-color: black;
+  font-weight: bold;
+  font-size: large;
+  margin-top: 20px; /* Metni 20 piksel aşağı kaydırır */
+}
+
+ul {
+  color: #ffffff;
+  width: 50%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-size: 4vh;
+  margin-top: 20px; /* Metni 20 piksel aşağı kaydırır */
+}
+
+.h2 {
+  color: #ffffff;
+  /* width: 30%; */
+  margin-left: 20%;
+  display: flex;
+  /* list-style: none;
+  justify-content: space-between; */
+  align-items: center;
+  font-weight: bold;
+  font-size: 5vh;
+  position: absolute;
+  /* bottom: 0; */
+}
